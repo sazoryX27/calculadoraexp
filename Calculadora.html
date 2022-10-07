@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="CalculadoraStyle.css"/>
+    <title>Calculadora Online</title>
+</head>
+<body class="flex p-0 m-0 justify-center bg-gray-400">
+    <div class="cuerpo-calculadora w-[400px]  mt-[5px]">
+        <section class="pantalla-calculadora bg-black text-white h-[90px] text-right text-[60px] pr-2">0</section>
+
+        <section class="botones-calculadora grid grid-cols-4 zona-de-botones bg-black h-[500px]">
+            <button class="boton-calculadora col-span-2 bg-slate-300 mt-[2px] mb-[1px] ml-[2px] mr-[1px] font-bold text-4xl">C</button>
+            <button class="boton-calculadora bg-slate-300 mt-[2px] ml-[1px] mb-[1px] mr-[1px] font-extrabold text-3xl">←</button>
+            <button class="boton-calculadora bg-purple-500 mt-[2px] mb-[1px] ml-[1px] mr-[2px] font-bold text-xl">÷</button>
+            <button class="boton-calculadora bg-slate-300 mt-[1px] mb-[1px] ml-[2px] mr-[1px] font-bold text-xl">7</button>
+            <button class="boton-calculadora bg-slate-300 mt-[1px] mb-[1px] ml-[1px] mr-[1px] font-bold text-xl">8</button>
+            <button class="boton-calculadora bg-slate-300 mt-[1px] mb-[1px] ml-[1px] mr-[1px] font-bold text-xl">9</button>
+            <button class="boton-calculadora bg-purple-500 mt-[1px] mb-[1px] mr-[2px] ml-[1px] font-bold text-xl">x</button>
+            <button class="boton-calculadora bg-slate-300 mt-[1px] mb-[1px] ml-[2px] mr-[1px] font-bold text-xl">4</button>
+            <button class="boton-calculadora bg-slate-300 mt-[1px] mb-[1px] ml-[1px] mr-[1px] font-bold text-xl">5</button>
+            <button class="boton-calculadora bg-slate-300 mt-[1px] mb-[1px] ml-[1px] mr-[1px] font-bold text-xl">6</button>
+            <button class="boton-calculadora bg-purple-500 mt-[1px] mb-[1px] mr-[2px] ml-[1px] font-bold text-xl">-</button>
+            <button class="boton-calculadora bg-slate-300 mt-[1px] mb-[1px] ml-[2px] mr-[1px] font-bold text-xl">1</button>
+            <button class="boton-calculadora bg-slate-300 mt-[1px] mb-[1px] ml-[1px] mr-[1px] font-bold text-xl">2</button>
+            <button class="boton-calculadora bg-slate-300 mt-[1px] mb-[1px] ml-[1px] mr-[1px] font-bold text-xl">3</button>
+            <button class="boton-calculadora bg-purple-500 mt-[1px] mb-[1px] ml-[1px] mr-[2px] font-bold text-xl">+</button>
+            <button class="boton-calculadora col-span-3 bg-slate-300 mt-[1px] mb-[2px] ml-[2px] mr-[1px] font-bold text-3xl">0</button>
+            <button class="boton-calculadora bg-purple-500 mt-[1px] mb-[2px] ml-[1px] mr-[2px] font-bold text-xl">=</button>
+        </section>
+    </div>
+    <script src="calculadorajs.js"></script>    
+</body>
+</html>
